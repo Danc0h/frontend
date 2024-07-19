@@ -1,0 +1,174 @@
+:root {
+  --bg-color: #1f1f38;
+  --bg-white: #ffffff;
+  --color-bg-variant: #2c2c6c;
+}
+
+.site-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
+  padding: 1rem;
+}
+
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.rating span {
+  color: #ffc000;
+}
+
+.btn-primary {
+  background-color: cyan;
+  color: #000000;
+}
+
+.product {
+  border: 1px solid var(--color-bg-variant); /* Adjusted border property #add8e6 */
+  margin: 0.8rem;
+  width: calc(100% / 2 - 1.6rem); /* Adjusted width for better alignment */
+  max-width: 400px;
+}
+
+.product img {
+  width: 100%;
+  height: auto; /* Ensures images maintain their aspect ratio */
+}
+
+.product-info {
+  padding: 1rem;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  font-size: 17px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 24px;
+  text-align: center;
+}
+
+/* custom-styles.css */
+
+.card {
+  border-radius: 7px 7px 7px 7px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-header {
+  background-color: #444; /* Darker header background */
+  color: #fff; /* White text color */
+}
+
+.card-body {
+  background-color: #444;
+  border-radius: 0 0 7px 7px; /* Light gray body background */
+}
+
+.card-title {
+  font-family: "Roboto", sans-serif; /* Custom font */
+  font-weight: 500;
+  text-decoration: underline;
+  color: #fff; /* Bold title */
+}
+
+.card-text {
+  font-family: "Arial", sans-serif; /* Custom font */
+  color: #fff; /* Darker text color */
+}
+
+/* custom-styles.css */
+
+/* Style for the list group container */
+.list-group {
+  border: 1px solid #333; /* Darker border for the list group */
+  border-radius: 10px; /* Rounded corners for the list group */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+/* Style for individual list group items */
+.list-group-item {
+  background-color: #f8f9fa; /* Light gray background */
+  color: #555; /* Darker text color */
+  font-family: "Arial", sans-serif; /* Custom font */
+  padding: 15px 20px; /* Custom padding */
+  border: none; /* Remove default border */
+  border-bottom: 1px solid #ddd; /* Add custom border at the bottom */
+}
+
+.list-group-item:last-child {
+  border-bottom: none; /* Remove bottom border for the last item */
+}
+
+/* Style for active list group items */
+.list-group-item.active {
+  background-color: #444; /* Darker background for active item */
+  color: #fff; /* White text color */
+  border: none; /* Remove default border */
+}
+
+/* Style for hovered list group items */
+.list-group-item:hover {
+  background-color: #e9ecef; /* Slightly darker background on hover */
+  cursor: pointer; /* Change cursor to pointer */
+}
+
+.icon-button {
+  padding: 0; /* Remove default padding */
+}
+
+.cyan-background {
+  background-color: cyan;
+}
+
+.red-background {
+  background-color: red;
+}
+
+.nav-item {
+  margin-bottom: 10px;
+}
+
+.category-link {
+  padding: 10px 15px;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  color: #000000;
+}
+
+.category-link:hover {
+  background-color: #495057;
+}
+
+.category-link {
+  margin-right: 8px;
+}
+
+/* Define a golden color */
+.golden {
+  color: #d4af37; /* This is a hex code for a golden color */
+}
+
+/* Golden background color */
